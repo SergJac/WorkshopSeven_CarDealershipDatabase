@@ -116,7 +116,7 @@ VALUES('1HGCR2F81HA184054', '2017', 'Honda', 'Accord', 'Sedan', 'Red', '40,000',
 INSERT INTO vehicles(VIN, year, make, model, type, color, odometer, price, SOLD)
 VALUES('1FAHP2F82FG153170', '2015', 'Ford', 'Taurus', 'Sedan', 'Silver', '60,000', '16500.00', 'No');
 INSERT INTO vehicles(VIN, year, make, model, type, color, odometer, price, SOLD)
-VALUES('2C3CDZAG9JH321408', '2018', 'Dodge', 'Challenger', 'Coupe', 'Black', '30,000', '29500.00', 'No');
+VALUES('2C3CDZAG9JH321408', '2018', 'Ford', 'Mustang', 'Coupe', 'Red', '30,000', '29500.00', 'No');
 INSERT INTO vehicles(VIN, year, make, model, type, color, odometer, price, SOLD)
 VALUES('2HGFB2F89DH546448', '2013', 'Honda', 'Civic', 'Sedan', 'Gray', '70,000', '11500.00', 'No');
 INSERT INTO vehicles(VIN, year, make, model, type, color, odometer, price, SOLD)
@@ -285,56 +285,56 @@ VALUES('3', '1G1BC5SM8G7261402');
 
 
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-10 14:20:00', 'John Doe', 'john.doe@example.com', 1500.00, 'Yes', '1HGCR2F3XHA070012');
+VALUES('2022-07-10 14:20:00', 'John Doe', 'john.doe@example.com', 1500.00, 'Yes', '1HGCR2F3XHA070012');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-11 15:45:00', 'Jane Smith', 'jane.smith@example.com', 1200.00, 'No', '5NPE34AF6HH492300');
+VALUES('2024-09-11 15:45:00', 'Jane Smith', 'jane.smith@example.com', 1200.00, 'No', '5NPE34AF6HH492300');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-12 16:10:00', 'Robert Johnson', 'robert.johnson@example.com', 1800.00, 'Yes', 'JTDKN3DU6E0366914');
+VALUES('2021-06-12 16:10:00', 'Robert Johnson', 'robert.johnson@example.com', 1800.00, 'Yes', 'JTDKN3DU6E0366914');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-13 17:30:00', 'Emily Brown', 'emily.brown@example.com', 1600.00, 'No', '1FADP3F24GL386608');
+VALUES('2023-03-13 17:30:00', 'Emily Brown', 'emily.brown@example.com', 1600.00, 'No', '1FADP3F24GL386608');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-14 18:20:00', 'Michael Wilson', 'michael.wilson@example.com', 2000.00, 'Yes', '2C4RDGBG0GR204315');
+VALUES('2024-09-14 18:20:00', 'Michael Wilson', 'michael.wilson@example.com', 2000.00, 'Yes', '2C4RDGBG0GR204315');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-15 19:00:00', 'Sarah Martinez', 'sarah.martinez@example.com', 1750.00, 'Yes', '1FAHP2F84FG120287');
+VALUES('2022-04-15 19:00:00', 'Sarah Martinez', 'sarah.martinez@example.com', 1750.00, 'Yes', '1FAHP2F84FG120287');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-16 20:15:00', 'Matthew Taylor', 'matthew.taylor@example.com', 1450.00, 'No', '1G1JC6SH9F4227165');
+VALUES('2020-02-16 20:15:00', 'Matthew Taylor', 'matthew.taylor@example.com', 1450.00, 'No', '1G1JC6SH9F4227165');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-17 21:30:00', 'Ashley Thomas', 'ashley.thomas@example.com', 1300.00, 'Yes', '1N6BD0CT5GN717168');
+VALUES('2023-01-17 21:30:00', 'Ashley Thomas', 'ashley.thomas@example.com', 1300.00, 'Yes', '1N6BD0CT5GN717168');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-18 22:45:00', 'Daniel Rodriguez', 'daniel.rodriguez@example.com', 1900.00, 'No', '1HGCR2F55GA091547');
+VALUES('2024-08-18 22:45:00', 'Daniel Rodriguez', 'daniel.rodriguez@example.com', 1900.00, 'No', '1HGCR2F55GA091547');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-19 23:55:00', 'Taylor Anderson', 'taylor.anderson@example.com', 2200.00, 'Yes', 'JTDKB20U397862804');
+VALUES('2022-10-19 23:55:00', 'Taylor Anderson', 'taylor.anderson@example.com', 2200.00, 'Yes', 'JTDKB20U397862804');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-20 10:25:00', 'Emma Davis', 'emma.davis@example.com', 1700.00, 'Yes', '1HGCR2F55GA091549');
+VALUES('2021-05-20 10:25:00', 'Emma Davis', 'emma.davis@example.com', 1700.00, 'Yes', '1HGCR2F55GA091549');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-21 11:35:00', 'Noah White', 'noah.white@example.com', 1950.00, 'No', 'JTDKB20U397862805');
+VALUES('2024-07-21 11:35:00', 'Noah White', 'noah.white@example.com', 1950.00, 'No', 'JTDKB20U397862805');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-22 12:45:00', 'Olivia Brown', 'olivia.brown@example.com', 1400.00, 'Yes', '1G1PC5SH2B7110693');
+VALUES('2023-11-22 12:45:00', 'Olivia Brown', 'olivia.brown@example.com', 1400.00, 'Yes', '1G1PC5SH2B7110693');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES ('2024-06-23 13:55:00', 'Ethan Taylor', 'ethan.taylor@example.com', 2100.00, 'No', '1FAHP2F81HA184054');
+VALUES ('2021-04-23 13:55:00', 'Ethan Taylor', 'ethan.taylor@example.com', 2100.00, 'No', '1FAHP2F81HA184054');
 INSERT INTO sales_contracts(date_of_contract, customer_name, customer_email, sales_tax_amount, financed, VIN)
-VALUES('2024-06-24 14:45:00', 'Ava Wilson', 'ava.wilson@example.com', 2300.00, 'Yes', '1FAHP2F82FG153171');
+VALUES('2024-03-24 14:45:00', 'Ava Wilson', 'ava.wilson@example.com', 2300.00, 'Yes', '1FAHP2F82FG153171');
 
 
 
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
 VALUES('2024-06-10 14:20:00', 'Michael Johnson', 'michael.johnson@example.com', 550.00, 275.00, '1GNEK13ZX3R314511');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-11 15:45:00', 'Emily Brown', 'emily.brown@example.com', 650.00, 325.00, '2T1BR32E74C300080');
+VALUES('2022-05-11 15:45:00', 'Emily Brown', 'emily.brown@example.com', 650.00, 325.00, '2T1BR32E74C300080');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-12 16:10:00', 'David Wilson', 'david.wilson@example.com', 750.00, 375.00, '3FAHP0GA1BR107007');
+VALUES('2023-09-12 16:10:00', 'David Wilson', 'david.wilson@example.com', 750.00, 375.00, '3FAHP0GA1BR107007');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-13 17:30:00', 'Jessica Lee', 'jessica.lee@example.com', 800.00, 400.00, '1FTEW1EF2HFB08747');
+VALUES('2021-03-13 17:30:00', 'Jessica Lee', 'jessica.lee@example.com', 800.00, 400.00, '1FTEW1EF2HFB08747');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-14 18:20:00', 'Christopher Davis', 'christopher.davis@example.com', 850.00, 425.00, '1C4RJEBG0HC946275');
+VALUES('2022-07-14 18:20:00', 'Christopher Davis', 'christopher.davis@example.com', 850.00, 425.00, '1C4RJEBG0HC946275');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-15 19:00:00', 'Sarah Martinez', 'sarah.martinez@example.com', 900.00, 450.00, 'JH4CU2F69BC039831');
+VALUES('2023-11-15 19:00:00', 'Sarah Martinez', 'sarah.martinez@example.com', 900.00, 450.00, 'JH4CU2F69BC039831');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-16 20:15:00', 'Matthew Taylor', 'matthew.taylor@example.com', 950.00, 475.00, '2GNFLFEK6F6100602');
+VALUES('2020-09-16 20:15:00', 'Matthew Taylor', 'matthew.taylor@example.com', 950.00, 475.00, '2GNFLFEK6F6100602');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-17 21:30:00', 'Ashley Thomas', 'ashley.thomas@example.com', 1000.00, 500.00, '1G1BE5SM3H7242539');
+VALUES('2021-08-17 21:30:00', 'Ashley Thomas', 'ashley.thomas@example.com', 1000.00, 500.00, '1G1BE5SM3H7242539');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-18 22:45:00', 'Daniel Rodriguez', 'daniel.rodriguez@example.com', 1050.00, 525.00, '1G1BE5SM6H7119803');
+VALUES('2022-09-18 22:45:00', 'Daniel Rodriguez', 'daniel.rodriguez@example.com', 1050.00, 525.00, '1G1BE5SM6H7119803');
 INSERT INTO lease_contracts(date_of_contract, customer_name, customer_email, lease_fee, monthly_payment, VIN)
-VALUES('2024-06-19 23:55:00', 'Taylor Anderson', 'taylor.anderson@example.com', 1100.00, 550.00, '1G1BE5SMXH7200925');
+VALUES('2024-02-19 23:55:00', 'Taylor Anderson', 'taylor.anderson@example.com', 1100.00, 550.00, '1G1BE5SMXH7200925');
 
